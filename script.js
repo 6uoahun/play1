@@ -688,7 +688,7 @@ function chooseSong(){
     $('resultTitle').textContent = s.title;
     $('resultArtist').textContent = s.artist;
     i++;
-  }, 90);
+  }, 70);
 
   setTimeout(()=>{
     clearInterval(interval);
@@ -700,7 +700,7 @@ function chooseSong(){
 
     showResult(song);
     setBusy(false);
-  }, 850);
+  }, 550);
 }
 
 pickBtn.addEventListener('click', chooseSong);
