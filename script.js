@@ -700,7 +700,7 @@ function chooseSong(){
 
     showResult(song);
     setBusy(false);
-  }, 550);
+  }, 300);
 }
 
 pickBtn.addEventListener('click', chooseSong);
