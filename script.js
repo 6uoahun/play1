@@ -302,7 +302,7 @@ const songs = [
   },
   {
     "id": 44,
-    "artist": "서동현 (Feat. 이무진)",
+    "artist": "BIG Naughty (서동현) (Feat. 이무진)",
     "title": "바이 바이",
     "lyric": "따분하다고 느껴도 모든 건 언젠가 다 라일락",
     "youtubeUrl": "https://youtu.be/QjyzTxBjgRA?si=3ib52-KAd2wpZsRL"
