@@ -69,6 +69,17 @@ button{cursor:pointer} button:disabled{cursor:wait;opacity:.62}
   background:transparent;border:0;color:#7d766e;font-size:12px;
 }
 .result{display:none}
+.result-title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.result-note {
+  font-size: 20px;
+  line-height: 1;
+}
 .result.show{display:block;animation:rise .45s ease both}
 @keyframes rise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:none}}
 .cover{
